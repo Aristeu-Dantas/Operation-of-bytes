@@ -13,11 +13,11 @@
 print('a) In base 16 there are 16 possible values.')
 
 def convert_function(x):
-    based62="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    based10=0
+    base62="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    base10=0
     for y in x:
-        based10=based62.index(y)+62*based10
-    return based10
+        base10=base62.index(y)+62*base10
+    return base10
 
 print(convert_function('a3'))
 print(convert_function('A3'))

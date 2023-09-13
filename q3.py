@@ -43,11 +43,11 @@ def convert_16_to_10(s):
     return int(s, 16)
 
 def convert_256_to_10(s):
-    based10 = 0
+    base10 = 0
     for y in s:
         user = int(y, 16)
-        based10 = based10 * 256 + user
-    return based10
+        base10 = base10 * 256 + user
+    return base10
 
 print('a)')
 print(convert_16_to_10("34"))
